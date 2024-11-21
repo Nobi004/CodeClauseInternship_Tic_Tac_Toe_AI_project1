@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "tic_tac_toe_ai/tic_tac_toe_ai\wsgi.py",
+        "src": "tic_tac_toe_ai/tic_tac_toe_ai/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
       }
